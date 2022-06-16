@@ -170,7 +170,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     const callBack = () => {
         steps++;
-        console.log('cock')
     }
     for (const tile of tiless) {
       tile.addEventListener('myEnter', callBack);
